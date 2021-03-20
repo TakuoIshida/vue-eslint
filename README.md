@@ -1,4 +1,4 @@
-# vue-ver2-typescript-eslint-prettier
+# vue-2.x-typescript-eslint-prettier
 Vueの初期環境構築済みファイル
 ESlint, prettireもよしなに設定しました。
 
