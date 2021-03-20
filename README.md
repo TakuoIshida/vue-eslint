@@ -1,7 +1,22 @@
 # vue-ver2-typescript-eslint-prettier
 Vueの初期環境構築済みファイル
 ESlint, prettireもよしなに設定しました。
+
 ## Project setup
+git clone後、プロジェクトのルートディレクトリに、.vscodeフォルダを追加し、
+settings.jsonに以下を追加してください。
+
+```
+{
+    "editor.formatOnPaste": true,
+    "git.ignoreLimitWarning": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+}
+```
+
 ```
 npm install
 ```
